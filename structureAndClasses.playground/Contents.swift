@@ -1,8 +1,13 @@
 import Cocoa
 
-struct Location {
+class Location {
     var x: Int
     var y: Int
+    
+    init(x: Int, y: Int){
+        self.x = x
+        self.y = y
+    }
 }
 
 //September at LCS
